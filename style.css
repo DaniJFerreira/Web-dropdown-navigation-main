@@ -1,147 +1,145 @@
 
 
-.text-content h1{
-  font-family: 'Epilogue';
-  font-size: 5em;
-  font-weight: bold;
-  padding: 12rem 6rem 0rem 5rem;
-}
-
-p{
-  font-family: 'Epilogue';
-  font-size: 18px;
-  text-align: left;
-  padding: 2rem 8rem 2rem 5rem;
-}
-
-
-.learn-btn{
-  padding: 0rem 6rem 0rem 5rem;
-
-}
-.nav-item{
-  padding: 0 1rem;
-
-}
-.nav-log{
-  display: inline;
-  padding: 0 1rem;
-
-}
-.nav-reg{
-  display: inline;
-  padding: 0 1rem;
-}
-
-.dropdown-menu  img{
-  padding: 0 0.6rem;
-}
-
-.dropdown-menu li{
- text-align: left;
-}
-
-
-.container{
-  width: 1440px;
-}
-
-.logo{
-  margin: 0px 20px 0px;
-  padding: 0px;
-  align-items: left;
-}
-
-.login-btn{
-  border-style: none;
-}
-
-
-.body-img{
-  width: 30%;
-  position: absolute;
-  left:54%;
-  top:10%;
-}
-
-#content{
-  width: 55%;
-}
-
-.client{
-display: inline ;
-margin: 0px 30px;
-}
-
-.bunner{
-margin: 3rem 0 10rem 0;
-}
-
-
-.client img{
-  width: 8%;
-}
-
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-   color: hsl(228, 45%, 44%);
-   text-decoration: none;
-}
-
-@media (max-width: 955px){
-
-  #content {
-    text-align: center;
-    position: static;
-    width: 500px;
-  }
-
-  .body-img{
-    position: static;
-    width: 500px;
-    top:10%;
-
-  }
-  .text-content{
-    position: static;
-    width: 500px;
-  }
-  .bunner{
-    width: 150%;
-  }
-
   .text-content h1{
     font-family: 'Epilogue';
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
-    padding: 2rem 0rem;
+    padding: 12rem 6rem 0rem 5rem;
   }
+
   p{
     font-family: 'Epilogue';
-    text-align: center;
-    padding: 0rem 0rem;
+    font-size: 18px;
+    text-align: left;
+    padding: 2rem 8rem 2rem 5rem;
   }
-  .d-flex li{
+
+  .container{
+    width: 1440px;
+  }
+
+  .logo{
+    margin: 0px 20px 0px;
+    padding: 0px;
+    align-items: left;
+  }
+
+  .login-btn{
+    border-style: none;
+  }
+
+  .d-flex ul{
+    margin: 1rem 0;
+  }
+    .learn-btn{
+      padding: 0rem 6rem 0rem 5rem;
+
+    }
+    .nav-item{
+      padding: 0 1rem;
+
+    }
+    .nav-log{
+      display: inline;
+      padding: 0 1rem;
+
+    }
+    .nav-reg{
+      display: inline;
+      padding: 0 1rem;
+    }
+
+    .dropdown-menu  img{
+      padding: 0 0.6rem;
+    }
+
+    .dropdown-menu li{
+     text-align: left;
+    }
+
+
+  .body-img{
+    width: 29%;
+    position: absolute;
+    left:52%;
+    top:15%;
+  }
+
+  #content{
+    width: 55%;
+  }
+
+  .client img{
+    width: 7%;
+  }
+
+  .client{
+  display: inline ;
+  margin: 0px 2rem;
+  }
+
+  .bunner{
+  margin: 3rem 0 10rem 0;
+
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+
+  }
+  .attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+  }
+
+
+  @media (max-width: 955px){
+
+    #content {
+      text-align: center;
+      position: static;
+      width: 500px;
+    }
+
+    .body-img{
+      position: static;
+      width: 500px;
+      top:10%;
+
+    }
+    .text-content{
+      position: static;
+      width: 500px;
+    }
+    .bunner{
+      width: 150%;
+    }
+
+    .text-content h1{
+      font-family: 'Epilogue';
+      font-size: 3em;
+      font-weight: bold;
+      padding: 2rem 0rem;
+    }
+    p{
+      font-family: 'Epilogue';
+      text-align: center;
+      padding: 0rem 0rem;
+    }
+    .d-flex li{
     display: grid;
     margin: 0.6rem 0;
-    
     }
     .d-flex ul{
     display: grid;
     padding: 0rem 0rem;
     }
-  
-  .dropdown-menu  img{
-    padding: 0 0.6rem;
-  }
 
-  .dropdown-menu li{
-   text-align: center;
-  }
-}
+    .dropdown-menu  img{
+      padding: 0 0.6rem;
+    }
 
+    .dropdown-menu li{
+     text-align: center;
+    }
+  }
